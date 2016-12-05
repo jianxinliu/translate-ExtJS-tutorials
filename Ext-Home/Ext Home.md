@@ -8,3 +8,5 @@ ExtJS 是建立在 JavaScript 上的，是 JS 的扩展，是一个 JS 框架。
        
 ## 在线运行ExtJS     
 **注意：**原文里的程序是可以在线运行的，笔者在这里给出[原文地址](https://www.tutorialspoint.com/extjs/index.htm) 
+-----------
+[阅读原文](https://www.tutorialspoint.com/extjs/index.htm) 
