@@ -56,5 +56,5 @@ sencha 提供了一些产品级的 Ext JS 应用开发工具
 Sencha IDE Plugins 是集成在 IntelliJ 和 WebStrom IDEs 里的Sencha 框架里的。它提供了诸如代码补全、代码提示、代码导航、代码生成、创建模板、拼写检查等功能来提高开发效率
 ### Sencha Inspector
 一个调试工具
-
+----------------------------
 [阅读原文](https://www.tutorialspoint.com/extjs/extjs_overview.htm)
