@@ -19,5 +19,25 @@
 * 找到resources\css\ext-all.css               
                    
 在一个HTML文件中写如下代码：        
+    <html>
+       <head>
+          <link href="resources/css/ext-all.css" rel="stylesheet" />
+          <script type="text/javascript" src="ext-all.js"></script>
+          <script type="text/javascript">
+             Ext.onReady(function() {
+             Ext.create('Ext.Panel', {
+                renderTo: 'helloWorldPanel',
+                height: 100,
+                width: 200,
+                title: 'Hello world',
+                html: 'First Ext JS Hello World Program'
+                });
+             });
+          </script>
+       </head>
+       <body>
+          <div id="helloWorldPanel"></div>
+       </body>
+    </html>
 此时，在任意浏览器上浏览这个html文件即可见到效果           
 [Try it!](https://www.tutorialspoint.com/extjs/extjs_environment_setup.htm)
