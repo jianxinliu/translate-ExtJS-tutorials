@@ -17,25 +17,27 @@
 * ext-all-dev.js 开发模式     
 **说明**ext-all.js、ext-all-debug.js、ext-all-dev.js，这三个文件可单独使用，即只在你的工程中加入任意一个即可
 * 找到resources\css\ext-all.css
-在一个HTML文件中写如下代码：        
-`<html>`               
-`   <head>`            
-`     <style rel='stylesheet' type='text/css' href='webContent/resources/css/ext-all.css'> `         
-`     <script type="text/javascript" src="webContent/ext-all-debug.js"></script>`            
-`     <script type="text/javascript">`        
-`    Ext.onReady(function() {`            
-`             Ext.create('Ext.Panel', {`            
-`               renderTo: 'helloWorldPanel',`             
-`                height: 100,`            
-`                width: 200,`             
-`                title: 'Hello world',`             
-`                html: 'First Ext JS Hello World Program'`              
-`                });`            
-`             });`            
-`     </script>`            
-`   </head>`         
-`   <body>`           
-`   </body>`          
-`</html>`               
+在一个HTML文件中写如下代码：
+    <!DOCTYPE html>
+    <html>
+       <head>
+          <link href="WebContent/extResources/resources/css/ext-all.css" rel="stylesheet" />
+          <script type="text/javascript" src="WebContent/extResources/ext-all.js"></script>
+          <script type="text/javascript">
+             Ext.onReady(function() {
+             Ext.create('Ext.Panel', {
+                renderTo: 'helloWorldPanel',
+                height: 100,
+                width: 200,
+                title: 'Hello world',
+                html: 'First Ext JS Hello World Program'
+                });
+             });
+          </script>
+       </head>
+       <body>
+          <div id="helloWorldPanel"></div>
+       </body>
+    </html>              
 此时，在任意浏览器上浏览这个html文件即可见到效果           
 [Try it!](https://www.tutorialspoint.com/extjs/extjs_environment_setup.htm)
