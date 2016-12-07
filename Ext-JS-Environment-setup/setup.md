@@ -21,7 +21,7 @@
 在一个HTML文件中写如下代码：      
 `<html>`               
 `   <head>`            
-`     <style rel='stylesheet' type='text/css' href='webContent/resources/css/ext-all.css'> `         
+`     <link rel='stylesheet' type='text/css' href='webContent/resources/css/ext-all.css'> `         
 `     <script type="text/javascript" src="webContent/ext-all-debug.js"></script>`                  
 `     <script type="text/javascript">`        
 `    Ext.onReady(function() {`            
