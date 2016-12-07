@@ -18,25 +18,40 @@
 **说明**ext-all.js、ext-all-debug.js、ext-all-dev.js，这三个文件可单独使用，即只在你的工程中加入任意一个即可
 * 找到resources\css\ext-all.css               
                    
-在一个HTML文件中写如下代码：      
-`<html>`               
-`   <head>`            
-`     <link rel='stylesheet' type='text/css' href='webContent/resources/css/ext-all.css'> `         
-`     <script type="text/javascript" src="webContent/ext-all-debug.js"></script>`                  
-`     <script type="text/javascript">`        
-`    Ext.onReady(function() {`            
-`             Ext.create('Ext.Panel', {`            
-`               renderTo: 'helloWorldPanel',`             
-`                height: 100,`            
-`                width: 200,`             
-`                title: 'Hello world',`             
-`                html: 'First Ext JS Hello World Program'`              
-`                });`            
-`             });`            
-`     </script>`            
-`   </head>`         
-`   <body>`           
-`   </body>`          
-`</html>`     
+在一个HTML文件中写如下代码：    
+
+
+    <html>               
+       <head>            
+         <link rel='stylesheet' type='text/css' href='webContent/resources/css/ext-all.css'>
+         <script type="text/javascript" src="webContent/ext-all-debug.js"></script>
+         <script type="text/javascript">
+            Ext.onReady(function() {
+                 Ext.create('Ext.Panel', {
+                   renderTo: 'helloWorldPanel',
+                    height: 100,
+                    width: 200,
+                    title: 'Hello world',
+                    html: 'First Ext JS Hello World Program'
+                    });
+                 });
+         </script>
+       </head>
+       <body>
+       </body>
+    </html>
+
+
 此时，在任意浏览器上浏览这个html文件即可见到效果 
 [Try it!](https://www.tutorialspoint.com/extjs/extjs_environment_setup.htm)
+### CDN 配置
+CDN（content delivery network）：内容分发网络。 Ext JS 支持从网络中获取库文件，从而不用下载库文件也能运行 Ext JS 代码。     
+配置如下：
+
+    <html>
+       <head>
+          <link rel = "stylesheet" type ="text/css" href= "https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/classic/theme-crisp/resources/theme-crisp-all.css" / >
+          <script type ="text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/ext-all.js" > </script>
+          <script type ="text/javascript" src = "app.js" > </script> 
+       </head>
+    </html>
