@@ -2,7 +2,10 @@
 translate the ExtJs tutorials from [tutorialspoint](https://www.tutorialspoint.com/extjs/).
 
 # 翻译 ExtJs教程  
-原文来自[tutorialspoint](https://www.tutorialspoint.com/extjs/).    
+原文来自[tutorialspoint](https://www.tutorialspoint.com/extjs/).  
+
+目的：大学课上使用 ExtJs 学习富客户端技术（前端框架），课后参考的 [tutorialspoint](https://www.tutorialspoint.com/extjs/) ，觉得浅显易懂，便花了点时间进行翻译，顺便练习 Markdown 语法。
+
 **译者水平有限，如有不当，敬请读者指正**
 
 ## 目录说明
