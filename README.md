@@ -8,8 +8,8 @@ translate the ExtJs tutorials from [tutorialspoint](https://www.tutorialspoint.c
 ## 目录说明
 前三章分别是 `Ext-Home`、`ExtJs-Overview`、`ExtJS-Environment-setup`。其余章节按章节前的数字顺序阅读即可。另，`resource` 目录下的资源不必阅读，在文章的正文部分有链接指向这些内容。
 
-[第1章Ext-Home](Ext-Home/Ext Home.md)
-[第2章]()
+[第1章Ext-Home](https://github.com/jianxinliu/translate-Ext-JS-tutorials/blob/master/Ext-Home/Ext%20Home.md)</br>
+[第2章]()</br>
 [第3章]()
 [第4章]()
 [第5章]()
